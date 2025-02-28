@@ -69,7 +69,7 @@ export default function About() {
                 pushing the boundaries of AI technology.
               </p>
               <p>
-                I've worked on projects ranging from computer vision systems for autonomous vehicles to NLP models for
+                I&apos;ve worked on projects ranging from computer vision systems for autonomous vehicles to NLP models for
                 content moderation and recommendation engines.
               </p>
               <p>
