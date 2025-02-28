@@ -47,7 +47,6 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                as={Link}
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
                 {link.name}
@@ -72,7 +71,6 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  as={Link}
                   className="text-lg font-medium py-2 hover:text-primary transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
