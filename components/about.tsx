@@ -52,7 +52,7 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <div className="h-1 w-20 bg-primary mb-8"></div>
           <p className="text-lg text-center max-w-3xl text-muted-foreground">
-            I'm a passionate Machine Learning Engineer with over 7 years of experience building intelligent systems that
+            I&apos;m a passionate Machine Learning Engineer with over 7 years of experience building intelligent systems that
             solve real-world problems. My expertise spans across computer vision, natural language processing, and deep
             learning.
           </p>
@@ -65,7 +65,7 @@ export default function About() {
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                With a Master's degree in Computer Science specializing in Machine Learning, I've dedicated my career to
+                With a Master&apos;s degree in Computer Science specializing in Machine Learning, I&apos;ve dedicated my career to
                 pushing the boundaries of AI technology.
               </p>
               <p>
