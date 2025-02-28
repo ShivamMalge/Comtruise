@@ -6,6 +6,8 @@ const nextConfig = {
     domains: ["hebbkx1anhila5yf.public.blob.vercel-storage.com"],
     unoptimized: true, // Required for static deployments
   },
+  trailingSlash: true, // Ensures proper routing on GitHub Pages
+  assetPrefix: "/ComTruise/", // Ensures assets load correctly
 };
 
 export default nextConfig;
