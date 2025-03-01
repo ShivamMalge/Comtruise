@@ -9,6 +9,9 @@ const nextConfig = {
   trailingSlash: true, // Ensures correct routing on GitHub Pages
   assetPrefix: "/ComTruise/", // Ensures assets load correctly
   distDir: "out", // Ensures correct build output
+  experimental: {
+    appDir: false, // Removes the warning about invalid config keys
+  },
 };
 
 export default nextConfig;
