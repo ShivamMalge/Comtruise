@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Instagram } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import Myimg from "@/resources/12.jpg"
@@ -69,13 +69,13 @@ export default function Hero() {
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="https://twitter.com"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                <Twitter className="h-6 w-6" />
-                <span className="sr-only">Twitter</span>
+                <Instagram className="h-6 w-6" />
+                <span className="sr-only">Instagram</span>
               </Link>
             </div>
           </div>
