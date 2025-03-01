@@ -34,7 +34,7 @@ export default function Footer() {
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link
-              href="https://twitter.com"
+              href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
